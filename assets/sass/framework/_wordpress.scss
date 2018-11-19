@@ -1,0 +1,16 @@
+/*
+ * WordPress default post styles
+ * These styles deal with the dynamic content added
+ * to the WordPress editor by the end user. The aim 
+ * is to make sure that any type of alignment will
+ * sit well on the page. Don't forget that these will
+ * also need mobile styling. 
+ */
+.alignleft, img.alignleft, 
+.alignright, img.alignright, 
+.aligncenter, img.aligncenter, 
+.alignnone, img.alignnone {
+	margin: 1em;
+	display: block;
+	float: none;
+}
